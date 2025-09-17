@@ -38,6 +38,11 @@ import Iso22000Logo from './22000-2018-1.png'
 import FourSeasonsLogo from './Four_Seasons_logo.svg.png'
 import HyattLogo from './Hyatt_Logo.png'
 import RixosLogo from './Rixos_Hotels.svg.png'
+import AhlyLogo from '../Ahly logo.png'
+import HiltonLogo from '../Hilton logo.png'
+import MoriSushiLogo from '../Mori-Sushi-logo.png'
+import MarriottLogo from '../Marriott-logo.png'
+import MovenpickLogo from '../Mövenpick_Hotel-logo.png'
 
 function Certifications() {
   return (
@@ -60,10 +65,15 @@ function Partners() {
   return (
     <div className="pt-0">
       <p className="text-sm uppercase tracking-wide text-zinc-500 dark:text-zinc-400 text-left">Partners</p>
-      <div className="mt-1 flex items-center justify-center gap-8">
+      <div className="mt-1 flex flex-wrap items-center justify-center gap-8 px-2">
         <img src={FourSeasonsLogo} alt="Four Seasons" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
         <img src={HyattLogo} alt="Hyatt" className="h-10 sm:h-12 md:h-14 w-auto object-contain" />
         <img src={RixosLogo} alt="Rixos Hotels" className="h-24 sm:h-40 md:h-56 w-auto object-contain" />
+        <img src={AhlyLogo} alt="Al Ahly" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
+        <img src={HiltonLogo} alt="Hilton" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
+        <img src={MoriSushiLogo} alt="Mori Sushi" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
+        <img src={MarriottLogo} alt="Marriott" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
+        <img src={MovenpickLogo} alt="Mövenpick" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
       </div>
     </div>
   )
