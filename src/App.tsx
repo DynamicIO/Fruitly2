@@ -12,7 +12,7 @@ export default function App() {
     // Initialize theme from localStorage on first load
     const stored = localStorage.getItem('theme')
     const root = document.documentElement
-    if (stored === 'dark') root.classList.add('dark')
+    if (stored === 'dark' || stored === null) root.classList.add('dark')
     if (stored === 'light') root.classList.remove('dark')
   }, [])
 
