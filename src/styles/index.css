@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+/* Pastel gradients for light, deeper accents for dark */
+.hero-bg {
+  background-image: url('../components/Banner Image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: saturate(180%) blur(12px);
+}
+.glass-dark {
+  background: rgba(24, 24, 27, 0.5);
+  backdrop-filter: saturate(180%) blur(12px);
+}
+
+/* Smooth hover transitions */
+* { @apply transition-colors duration-200; }
+

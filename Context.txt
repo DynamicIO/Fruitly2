@@ -1,0 +1,54 @@
+Build a modern, mobile-first React website for Fruitly, a 100% freshly squeezed juice brand.
+
+Brand details:
+Instagram: https://www.instagram.com/fruitly_juice/?hl=en
+Facebook: https://www.facebook.com/FruitlyJuices/
+Bio:
+
+    Contact us for events & occasions
+
+    100% freshly squeezed juices
+
+    We deliver! 🛵
+
+    For orders 📞: 01029536402
+
+Requirements:
+
+    Light theme and dark theme toggle button at the top right. Save user preference in local storage.
+
+    Mobile optimized (90% of traffic is mobile). Use responsive layout and ensure all fonts/images scale properly.
+
+    Sections:
+
+        Hero section with a background image/video of fresh juice pouring.
+
+        About Us with text from Instagram bio and call-to-action for orders.
+
+        Menu section showcasing different juice flavors with images and prices.
+
+        Delivery & Events section with icons and short descriptions.
+
+        Contact section with phone number, Instagram & Facebook links, and a contact form.
+
+    Design style:
+
+        Modern, minimal, fresh look.
+
+        Smooth scroll animations for sections.
+
+        Use pastel fruit colors for light mode and rich, deep colors for dark mode.
+
+        Elegant hover effects on buttons and cards.
+
+    Navigation bar that stays fixed at the top.
+
+    Footer with contact info, social icons, and copyright.
+
+    Use React + Tailwind CSS for styling. Add GSAP or Framer Motion for animations.
+
+    Code must be clean, well-structured, and easy to maintain.
+
+    Optimize images and use lazy loading for performance.
+
+    Deploy-ready code that works on both desktop and mobile.
